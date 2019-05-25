@@ -1,7 +1,8 @@
-**CentOS Notes**
+**CentOS Notes (CentOS 7+)**
 
 
-**SSH and PuttY Configuration**
+
+**SSH and PuTTY Configuration**
 
 
 ![PuttY-Key-Generator-1](https://github.com/caglarorhan/centOS-notes/blob/master/Putty-Key-Generator-1.JPG)
