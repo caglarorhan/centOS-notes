@@ -28,6 +28,7 @@ After that you can log in with PuTTY as shown in images below!
 
 ![PuttY-3](https://github.com/caglarorhan/centOS-notes/blob/master/img/Putty-3.JPG)
 
+
 **How to install NodeJS to CentOS**
 
 - In CentOS first install `wget` with using `yum install wget`.
@@ -39,7 +40,14 @@ https://nodejs.org/dist/v12.3.1/node-v12.3.1.tar.gz for me.
 
 - Export content of this file into /usr/local directory with `tar --strip-components 1 -xzvf node-v* -C /usr/local`
 
-- You can remove `node-v12.3.1.tar.gz` from `~` with `rm node-v12.3.1.tar.gz `
+- You can remove `node-v12.3.1.tar.gz` (downloaded file) from `~` with `rm node-v12.3.1.tar.gz `
+
+- Now you can check Node version with `node -v`
+
+**How to install latest npm**
+- Check the version with `npm -v`. Usually it comes with Node, but if there is a version downgrade you can upgrade to the latest version with `npm install -g npm@latest` , and check again with `npm -v`.
+
+That is all!
 
 
 
